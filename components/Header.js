@@ -9,7 +9,7 @@ const Header = ({ title, onSearchPress }) => {
   return (
     <View style={[styles.header, { backgroundColor: theme.card }]}>
       <Image
-        source={require('../assets/Profile.jpg')}  // Make sure this path points to your profile image
+        source={require('../assets/Profile.jpg')}
         style={styles.profileImage}
       />
       <Text style={[styles.title, { color: theme.text }]}>{title}</Text>
